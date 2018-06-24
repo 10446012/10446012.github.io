@@ -4,26 +4,27 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/main.scss" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/style.css" type="text/css" rel="stylesheet">
 <title>index</title>
 </head>
 
 <body>
-  <nav id="nav-top-color"></nav>
-  <nav class="white" id="nav-style" role="navigation">
+  <div  class="top-color" style="height: 15px; background-color: #4e342e  ;"></div>
+  <nav class="white" role="navigation">
+   
     <div class="nav-wrapper center">
-      <ul class="right hide-on-med-and-down" id="nav-list">
-       <li><a href="index.html">回首頁</a></li>
-        <li><a href="p1.html">咖啡豆介紹</a></li>
-        <li><a href="p2.html">手沖器具</a></li>
-        <li><a href="p3.html">手沖教學</a></li>
+      <ul class="right hide-on-med-and-down" id="nav-list" style="margin-right: 30px;">
+       <li><a href="index.html" style="color: #3e2723;">回首頁</a></li>
+        <li><a href="p1.html" style="color: #3e2723;">咖啡豆介紹</a></li>
+        <li><a href="p2.html" style="color: #3e2723;">手沖器具</a></li>
+        <li><a href="p3.html" style="color: #3e2723;">手沖教學</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-       <li><a href="index.html">回首頁</a></li>
-        <li><a href="p1.html">咖啡豆介紹</a></li>
-        <li><a href="p2.html">手沖器具</a></li>
-        <li><a href="p3.html">手沖教學</a></li>
+       <li><a href="index.html" style="color: #3e2723;">回首頁</a></li>
+        <li><a href="p1.html" style="color: #3e2723;">咖啡豆介紹</a></li>
+        <li><a href="p2.html" style="color: #3e2723;">手沖器具</a></li>
+        <li><a href="p3.html" style="color: #3e2723;">手沖教學</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><span class="material-icons">≡</span></a>
     </div>
@@ -31,9 +32,9 @@
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container-img">
-      	<h3 class="center" style="display: none">您從未品嚐過的完美現烘咖啡豆</h3>
-      	<h5 class="center" style="display: none">今天就成為咖啡獵人發掘更多上等優質咖啡豆帶來的繽紛味覺饗宴</h5>
+      <div class="container-img" style="text-align: center; margin-top: 100px;" >
+      	<h3 class="center" style="display: none; color: #fff;" >您從未品嚐過的完美現烘咖啡豆</h3>
+      	<h5 class="center" style="display: none; color: #fff;">今天就成為咖啡獵人發掘更多上等優質咖啡豆帶來的繽紛味覺饗宴</h5>
       </div>
     </div>
     <div class="parallax"><img src="images/index-1.png" alt="Unsplashed background img 1"></div>
@@ -51,7 +52,7 @@
         </div>
         <div class="col s12 m8 ">
           <div class="icon-block t-js" style="display: none" >
-			  <h3 class=" brown-text" ><a class="material-icons" style="color: #3e2723">什麼是手沖咖啡？</a></h3>
+			<h3 class=" brown-text" ><a class="material-icons" style="color: #3e2723">什麼是手沖咖啡？</a></h3>
             <p class="light" >手沖咖啡顧名思義，就是將熱水倒在咖啡粉上，經由濾紙和濾杯萃取出咖啡，整個沖煮過程約3至4分鐘。由於熱水的流速、方向、溫度皆由沖煮者控制，因此幾乎每次沖煮出來的咖啡風味都不同，雖然器具簡單，卻非常講究手法和經驗。</p>
           </div>
         </div>
@@ -64,7 +65,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center-2" style="display: none">
-          <h5 class="header col s12 light ">手沖咖啡不只是煮咖啡，也是一門值得深耕的藝術。一起踏入手沖咖啡的奧妙殿堂，沖出你個人專屬的風味咖啡吧！</h5>
+          <h5 class="header col s12 light " style="color: #fff; font-weight: 300; text-align: center; ">手沖咖啡不只是煮咖啡，也是一門值得深耕的藝術。一起踏入手沖咖啡的奧妙殿堂，沖出你個人專屬的風味咖啡吧！</h5>
         </div>
       </div>
     </div>
@@ -100,7 +101,7 @@
 
   <footer class="page-footer brown darken-2">
     <div class="footer-copyright brown darken-3">
-      <div class="container">
+      <div class="container" style="text-align: center;">
       Made by <a class="brown-text text-lighten-3 footer-text">© 2018 Ntub 10446012</a>
       </div>
     </div>
@@ -108,6 +109,6 @@
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js/style.js"></script>
 </body>
 </html>
